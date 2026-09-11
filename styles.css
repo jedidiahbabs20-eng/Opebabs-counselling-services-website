@@ -1477,7 +1477,9 @@ body {
 }
 
 
-/* HAMBURGER BUTTON */
+/* ============================================
+   HAMBURGER BUTTON
+   ============================================ */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -1501,7 +1503,6 @@ body {
   transform-origin: center;
 }
 
-/* HAMBURGER OPEN STATE — animates to X */
 .hamburger.open span:nth-child(1) {
   transform: translateY(7.5px) rotate(45deg);
 }
@@ -1515,14 +1516,17 @@ body {
   transform: translateY(-7.5px) rotate(-45deg);
 }
 
-/* MOBILE STYLES */
+/* ============================================
+   MOBILE NAV
+   ============================================ */
 @media (max-width: 768px) {
   .navbar {
     padding: 0 24px;
     display: flex;
-    flex-direction: row;          /* keep logo and hamburger side by side */
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
   }
 
   .hamburger {
@@ -1568,8 +1572,3 @@ body {
     border-radius: 0;
   }
 }
- 
-
-
-
-
