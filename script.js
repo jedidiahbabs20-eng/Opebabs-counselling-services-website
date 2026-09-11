@@ -59,8 +59,7 @@ window.addEventListener("resize", () => {
 
 startAutoplay();
 
-document.querySelector("#footer-email").textContent =
-  "📧 kolaopepo76@gmail.com";
+document.querySelector("#footer-email").textContent = "📧 kolaopepo76@gmail.com";
 
 
   const contactForm = document.getElementById("contactForm");
