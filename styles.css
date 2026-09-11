@@ -1519,7 +1519,10 @@ body {
 @media (max-width: 768px) {
   .navbar {
     padding: 0 24px;
-    position: relative;
+    display: flex;
+    flex-direction: row;          /* keep logo and hamburger side by side */
+    justify-content: space-between;
+    align-items: center;
   }
 
   .hamburger {
